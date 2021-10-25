@@ -1,0 +1,18 @@
+<com.google.android.material.textfield.TextInputLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Type something..."
+    android:padding="20dp"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        />
+
+</com.google.android.material.textfield.TextInputLayout>
